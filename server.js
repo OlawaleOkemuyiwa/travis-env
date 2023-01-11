@@ -5,7 +5,7 @@ function sleep(ms) {
 
 async function main() {
   while(true) {
-    console.log(myName + "rocks!");
+    console.log(myName + " rocks!");
     await sleep(5000);
   }
 }
